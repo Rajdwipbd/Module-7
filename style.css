@@ -1,0 +1,64 @@
+.section1 div{
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+}
+.div1{
+    background-color: lightblue;
+    display: none;
+}
+.div2{
+    background-color: rgb(177, 177, 127);
+}   
+.div3{
+    background-color: rgb(190, 135, 116);
+    visibility: hidden;
+}
+.div4{
+    background-color: rgb(71, 186, 186);} */
+
+   .div7-2{
+
+        width: 300px;
+        height: 400px;
+        padding-left: 10px;
+        border: 3px solid seagreen;
+        overflow: scroll;
+        overflow-x: hidden;}
+   .mini-mini{
+    width: 140 px;
+    border: 2px solid red;
+    overflow: hidden;
+   }
+   .mini-text{
+        white-space: nowrap;
+        text-overflow: ellipsis;
+   } 
+  .container, .inner{
+    width: 150px;
+    height: 150px;
+    
+    border: 2px solid khaki;
+   }
+   .container{
+    background-color: aqua;
+   }
+   .inner{
+    background-color: brown;
+    transform: translate(80px, 50px) rotate(45deg) scale(.76);
+   } */
+   .box76{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    background-color: aquamarine;
+    transition: width 3s , height 3s ease, transform 3s;
+   }
+   .box76 h3{
+    font-size: 30px;
+   }
+   .box76:hover{
+    width: 200px;
+    height: 200px;
+    transform: rotate(20deg);
+   } 
